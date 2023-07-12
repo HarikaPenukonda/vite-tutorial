@@ -1,5 +1,5 @@
 import React from "react";
-import UseStateHook from "./hooks/use-state";
+import UseStateHook from "./hooks/usestate/use-state";
 
 export default function App(){
     return(
