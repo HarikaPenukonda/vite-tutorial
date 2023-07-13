@@ -9,7 +9,8 @@ export default function CounterUpdater(){
     const[age,setAge] = useState(20)
 
     function add(){
-        setAge(age=>age+1)
+        // setAge(age=>age+1)
+        setAge(age+1)
     }
     return(
         <div>
