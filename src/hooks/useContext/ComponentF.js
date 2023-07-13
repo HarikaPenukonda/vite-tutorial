@@ -1,5 +1,5 @@
 import React from "react";
-import { UserContext } from "./ComponentC";
+import { UserContext, EmailContext } from "./ComponentC";
 
 export default function ComponentF(){
     return(
@@ -7,7 +7,24 @@ export default function ComponentF(){
             <UserContext.Consumer>
                 {
                     user => {
-                        return <div> User Context value {user}</div>
+                        return (
+                            <EmailContext>
+                            {
+                                email => {
+                                    return(
+                                        <div>
+                                            User name {user}
+                                            <br/>
+                                             Email {email}
+                                        </div>
+                                    )
+                                }
+                            }
+                                
+                            </EmailContext>
+                            
+                        )
+                        
                     }
                 }
             </UserContext.Consumer>
