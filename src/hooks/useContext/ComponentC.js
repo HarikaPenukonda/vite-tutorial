@@ -1,7 +1,7 @@
 import React from "react";
 import ComponentE from "./ComponentE";
 
-const UserContext = React.createContext()
+export const UserContext = React.createContext()
 
 export default function ComponentC(){
     return(
