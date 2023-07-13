@@ -7,22 +7,22 @@ import React, { useState } from "react";
 export default function Form(){
     const [name,setName] = useState('Harika')
     const [age,setAge] = useState(28)
-    function handleChange(e){
-        setName(e.target.value)
-    }
+    // function handleChange(e){
+    //     setName(e.target.value)
+    // }
 
-    function addAge(){
-        setAge(age + 1)
-    }
+    // function addAge(){
+    //     setAge(age + 1)
+    // }
     return(
         <div>
             <input
                 value={name}
-                onChange={handleChange}
+                onChange={e=>setName(e.target.value)}
             />
             <br/>
             <br/>
-            <button onClick={addAge}>Increment</button>
+            <button onClick={()=>setAge(age+1)}>Increment</button>
             <p>Hi {name} you are {age} years old</p>
         </div>
     )
