@@ -6,12 +6,10 @@ import ComponentC from "./hooks/useContext/ComponentC";
 // import Checkbox from "./hooks/usestate/checkbox";
 // import Form from "./hooks/usestate/Form";
 // import CounterUpdater from "./hooks/usestate/Counter-Updater";
-//import ToggleTheme from "./hooks/useContext/ToggleTheme";
 
 export default function App(){
     return(
         <ComponentC/>
-        // <ToggleTheme/>
         // <CounterUpdater/>
         // <Form/>
         // <Checkbox/>
