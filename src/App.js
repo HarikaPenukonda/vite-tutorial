@@ -1,5 +1,6 @@
 import React from "react";
-import ComponentC from "./hooks/useContext/ComponentC";
+//import ComponentC from "./hooks/useContext/ComponentC";
+import MyApp from "./hooks/useContext/Example1/MyApp";
 // import UseStateHook from "./hooks/usestate/use-state";
 // import Counter from "./hooks/usestate/Counter";
 // import TextFeild from "./hooks/usestate/TextFeild";
@@ -9,7 +10,8 @@ import ComponentC from "./hooks/useContext/ComponentC";
 
 export default function App(){
     return(
-        <ComponentC/>
+        <MyApp/>
+        // <ComponentC/>
         // <CounterUpdater/>
         // <Form/>
         // <Checkbox/>
