@@ -3,6 +3,9 @@ import Panel from "./Panel";
 
 export default function Form(){
     return(
-        <Panel/>
+        <Panel title="Welcome">
+            <button>Sign up</button>
+            <button>Log in</button>
+        </Panel>
     )
 }
