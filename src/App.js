@@ -1,5 +1,6 @@
 import React from "react";
-import Login from "./Login";
+//import Login from "./Login";
+import Signup from "./Signup";
 //import ComponentC from "./hooks/useContext/ComponentC";
 //import MyApp from "./hooks/useContext/Example1/MyApp";
 // import UseStateHook from "./hooks/usestate/use-state";
@@ -11,7 +12,8 @@ import Login from "./Login";
 
 export default function App(){
     return(
-        <Login/>
+        <Signup/>
+        // <Login/>
         // <MyApp/>
         // <ComponentC/>
         // <CounterUpdater/>
