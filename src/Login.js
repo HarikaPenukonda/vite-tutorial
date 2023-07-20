@@ -11,7 +11,7 @@ export default function Login(){
                     <label>Username</label>
                 </div>
                 <div className="txt_field">
-                    <input type="password" required/>
+                    <input type="text" required/>
                     <span></span>
                     <label>Password</label>
                 </div>
